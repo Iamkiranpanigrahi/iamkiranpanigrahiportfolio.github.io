@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Kiran Panigrahi</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#home" class="logo">My <span>Portfolio</span></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#skill">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <button id="toggleButton"><img src="moon-regular-24.png" alt="img"></button>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I am <h2 class="text-animation"><span>Kiran Panigrahi</span></h2>
+            </h1>
+            <p>and I am a 3rd Year B.Tech Student :)</p>
+            
+            <p>Originally from Odisha, I am currently pursuing my Bachelor's degree in Computer Science and Engineering from Siksha ‘O’ Anusandhan University. Prior to this, I completed my secondary education at De Paul School, Berhampur.</p>
+            <br>
+
+            <p>Professionally, I focus on software and web development. My work includes projects like payment gateway integrations, machine learning models, and open-source contributions. I am driven by a passion for leveraging technology to solve real-world challenges.</p>
+            <br>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/kiran-panigrahi-996223202"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/Iamkiranpanigrahi"><i class='bx bxl-github'></i></a>
+            </div>
+            <div class="btn-group">
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="imgg.png" alt="img">
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022 - 2026</div>
+                <div class="timeline-content">
+                    <h3>Bachelor of Technology</h3>
+                    <p>Siksha ‘O’ Anusandhan University</p>
+                    <p>Bhubaneshwar, Odisha</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2008 - 2022</div>
+                <div class="timeline-content">
+                    <h3>Secondary Education</h3>
+                    <p>De Paul School</p>
+                    <p>Berhampur, Odisha</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skill" id="skill">
+        <h2 class="heading">Skills</h2>
+        <div class="skill-container">
+            <div class="skill-box">
+                <div class="skill-info">
+                    <h4>Languages</h4>
+                    <p>Java | Python | HTML/CSS</p>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-info">
+                    <h4>Developer Tools</h4>
+                    <p>IDEs | JavaScript | Matplotlib</p>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-info">
+                    <h4>Libraries & Frameworks</h4>
+                    <p>Pandas | Scikit-learn | NumPy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="projects-box">
+            <h2 class="heading">Projects</h2>
+            <div class="wrapper">
+                <div class="projects-item">
+                    <img src="EMS.png" alt="Payment Gateway Integration">
+                    <h2>Payment Gateway Integration</h2>
+                    <p>Designed a secure and user-friendly payment gateway for seamless transaction processing.</p>
+                </div>
+                <div class="projects-item">
+                    <img src="VAG.png" alt="Movie Recommendation System">
+                    <h2>Movie Recommendation System</h2>
+                    <p>Built using collaborative filtering techniques for personalized recommendations.</p>
+                </div>
+                <div class="projects-item">
+                    <img src="IS.png" alt="Wine Quality Prediction">
+                    <h2>Wine Quality Prediction</h2>
+                    <p>Developed a machine learning model to predict wine quality based on data analytics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="a1722369-2edc-486e-bc7c-f49c5c729d15">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" name="name" placeholder="Full Name">
+                    <input type="email" name="email" placeholder="Email">
+                </div>
+                <div class="input-box">
+                    <input type="number" name="phone" placeholder="Phone Number">
+                    <input type="text" name="Subject" placeholder="Subject">
+                </div>
+            </div>
+            <div class="input-group-2">
+                <textarea name="Message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <button type="submit" value="Send Message" class="btn">Send Message</button>
+            </div>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.linkedin.com/in/kiran-panigrahi-996223202"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/Iamkiranpanigrahi"><i class='bx bxl-github'></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#contact">FAQ</a></li>
+            <li><a href="#home">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <p class="copyright">
+            &copy; Kiran Panigrahi | All Rights Reserved
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
